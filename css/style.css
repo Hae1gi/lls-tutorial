@@ -1,0 +1,70 @@
+/* Our style */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.button {
+    padding: 20px 37px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #3172b9;
+    cursor: pointer;
+}
+
+/* Header */
+
+.header {
+    height: 110px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.logo {
+    margin-right: auto;
+    max-width: 120px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.list-item:not(:last-child) {
+    margin-right: 55px;
+}
+
+.header-button {
+    margin-left: 85px;
+}

@@ -30,12 +30,17 @@ html {
 }
 
 .button {
+    display: inline-block;
     padding: 20px 37px;
     border-radius: 4px;
     text-transform: uppercase;
     color: #ffffff;
     background-color: #3172b9;
     cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Header */
@@ -67,4 +72,112 @@ html {
 
 .header-button {
     margin-left: 85px;
+}
+
+/* Main */
+
+/* Hero */
+
+.hero-container {
+    padding-top: 125px;
+    padding-bottom: 138px;
+}
+
+.hero-container-description {
+    max-width: 55%;
+}
+
+.section-hero-title {
+    margin-bottom: 35px;
+}
+
+.section-hero-description {
+    margin-bottom: 35px;
+}
+
+.section-hero-btn-description {
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 1;
+}
+
+/* What we do */
+
+.what-container {
+    padding-top: 225px;
+    padding-bottom: 200px;
+}
+
+.section-title {
+    font-size: 36px;
+}
+
+.section-description {
+    margin-top: 34px;
+}
+
+.section-do-list {
+    display: flex;
+    margin-top: 58px;
+}
+
+.section-do-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-do-list-item {
+    f
+}
+
+/* Clients */
+
+.clients-container {
+    padding-top: 95px;
+    padding-bottom: 160px;
+}
+
+.section-title {
+    margin-bottom: 42px;
+}
+
+.section-clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-clients-item {
+    flex: 1 1 33%;
+    /* max-width: 370px; */
+}
+
+.section-clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/* Contacts */
+
+.contacts-container {
+    padding-top: 70px;
+    padding-bottom: 165px;
+}
+
+.section-title {
+    margin-bottom: 150px;
+}
+
+.section-list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-item:not(:last-child) {
+    margin-right: 190px;
+}
+
+.section-item-title {
+    margin-top: 23px;
+}
+
+.section-item-info {
+    margin-top: 42px;
 }

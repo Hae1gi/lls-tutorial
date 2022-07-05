@@ -181,3 +181,46 @@ html {
 .section-item-info {
     margin-top: 42px;
 }
+
+/* Footer */
+
+.footer {
+    height: 125px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-left {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-right: 25px;
+    max-width: 120px;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-nav-list {
+    display: flex;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-right: 37px;
+}
+
+.footer-social-list {
+    margin-right: 58px;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 30px;
+}
